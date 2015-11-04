@@ -2,16 +2,17 @@
   "name": "poc",
   "version": "1.0.0",
   "description": "POC",
-  "main": "index.js",
+  "main": "src/poc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "watchify src/poc.js -v -t babelify -o src/bundle.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-preset-react": "^6.0.15",
-    "babelify": "^7.2.0",
+    "babelify": "6.4.0",
     "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+    "react-dom": "^0.14.2",
+    "watchify": "^3.6.0"
   }
 }
