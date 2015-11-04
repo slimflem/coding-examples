@@ -1,1 +1,0 @@
-console.error("SyntaxError: /Users/CAS/WebstormProjects/Poc/src/poc.js: Unexpected token (4:16) while parsing file: /Users/CAS/WebstormProjects/Poc/src/poc.js");

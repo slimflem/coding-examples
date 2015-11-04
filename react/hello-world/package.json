@@ -1,18 +1,14 @@
 {
-  "name": "poc",
-  "version": "1.0.0",
-  "description": "POC",
-  "main": "src/poc.js",
-  "scripts": {
-    "start": "watchify src/poc.js -v -t babelify -o src/bundle.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "HelloWorld",
+  "description": "Basic Hello World example using react.",
+  "main": "src/app.js",
   "dependencies": {
-    "babel-preset-react": "^6.0.15",
-    "babelify": "6.4.0",
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2",
-    "watchify": "^3.6.0"
+    "babelify": "^6.3.0",
+    "react": "0.14.2",
+    "react-dom": "0.14.2",
+    "watchify": "^3.4.0"
+  },
+  "scripts": {
+    "start": "watchify src/app.js -v -t babelify -o build/app.js"
   }
 }
